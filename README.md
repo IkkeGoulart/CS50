@@ -3,6 +3,10 @@
 - [Introdução](#introdução)
 - [Módulo 0: Scratch](#módulo-0-scratch)
 - [Módulo 1: C](#módulo-1-c)
+- [Módulo 2: Arrays](#módulo-2-arrays)
+- [Módulo 3: Algoritmos](#módulo-3-algoritmos)
+- [Módulo 4: Memória](#módulo-4-memória)
+- [Módulo 5: Estrutura de Dados](#módulo-5-estrutura-de-dados)
 
   
 ## Introdução
@@ -98,4 +102,64 @@
     }
     while(i < 5);
 ```
+## Módulo 2: Arrays
+<p align = "justify">O terceiro módulo deste curso aborda sobre: estrutura de dados array; características do tipo char; argumentos da linha de comando; compilação.</p>
+
+### Array
+<p align = "justify">Os arrays são listas que armazenam múltiplos valores de um mesmo tipo na memória. Os valores contidos nos arrays são acessados a partir de índices, começando no índice 0.</p>
+
+```c
+  //Inicializando com o array preenchido
+  int num[4] = {1, -42, 37, 109};
+
+  //Inicializando vazio e adicionando elementos posteriormente
+  int num[4];
+  num[0] = 1;
+  num[1] = -42;
+  num[2] = 37;
+  num[3] = 109;
+```
+
+<p align = "justify">Os arrays possuem um <strong>tamanho fixo</strong> definido na sua declaração. Cada elemento do array pode ser acessado usando seu índice correspondente.</p>
+<p align = "justify">Os arrays são comumente utilizados em conjunto de laços de repetição com objetivo de realizar operações de busca, modificação e exibição.</p>
+
+```c
+  int nums[5];
+
+  for(int i = 0; i < 5; i++;){
+    printf("%i", nums[i]);
+  } 
+```
+
+<p align = "justify">Em C, strings são implementadas como arrays do tipo char, cujo último elemento é o caractere nulo '\0'. Essa característica é essencial para a manipulação de strings, pois permite que funções identifiquem onde a string termina. Embora os arrays precisem ser inicializados com um tamanho pré-determinado, essa informação não é armazenada dentro do próprio array. Para lidar com esse problema, a função strlen(s), da biblioteca string.h, fornece um método para contar os caracteres da string, desconsiderando o caractere '\0'.</p>
+
+### Trabalhando com char
+<p align = "justify">Como explicando anteriormente, char é um tipo de dado capaz de armazenar um único caracter, limitando pelas aspas simples. O interessante desse tipo de dados é sua dicotomia com tipo inteiro através da tabela ASCII. Internamente, cada caracter é representado por seu código ASCII correspondente.
+<br><br>
+Por exemplo, o caracter 'A' apresenta o valor decimal 65, quanto o valor 'a' possui o valor 97. Com isso, é possível criar algoritmos que se baseiam em operações aritméticas com caracteres.</p>
+
+```c
+#include <stdio.h>
+
+int main() {
+    char letra = 'a';
+    char maiuscula = letra - 32; // Convertendo para maiúscula
+
+    printf("Letra minúscula: %c\n", letra);  // Saída: a
+    printf("Letra maiúscula: %c\n", maiuscula); // Saída: A
+
+}
+```
+
+
+### Argumentos na Linha de Comando
+
+### Como funciona o compilador da linguagem C?
+
+
+## Módulo 3: Algoritmos
+
+## Módulo 4: Memória
+
+## Módulo 5: Estrutura de Dados
   
