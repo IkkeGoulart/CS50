@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: Mais eficiente nas listas já ordenadas, demonstrando que não foi necessário iterar mais vezes no array.
+
+sort2 uses: merge sort
+
+How do you know?: O mais rápido em 7 dos 9 testes.
+
+sort3 uses: selection sort
+
+How do you know?: Mais eficiente que o sort1 nas listas invertidas, demonstrando que os elementos não precisaram ficar "passeando" por duplas.
