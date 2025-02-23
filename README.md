@@ -156,8 +156,13 @@ int main() {
 
 ### Como funciona o compilador da linguagem C?
 
-
 ## Módulo 3: Algoritmos
+
+### Notação Big(O)
+
+### Algoritmos de Ordenação
+
+### Complexidade dos Algoritmos de Ordenação
 
 ## Módulo 4: Memória
 
