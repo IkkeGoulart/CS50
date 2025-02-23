@@ -160,11 +160,27 @@ int main() {
 
 ### Notação Big(O)
 
+### Algoritmos de Pesquisa
+
+#### Pesquisa Linear
+
+#### Pesquisa Binária
+
+### Structs
+
 ### Algoritmos de Ordenação
 
-### Complexidade dos Algoritmos de Ordenação
+### Complexidade dos Algoritmos de Ordenação e Pesquisa
 
 ## Módulo 4: Memória
+
+### Base Hexadecimal / Base 16
+
+### Operadores & e *
+
+### Ponteiros
+
+### funções malloc e free
 
 ## Módulo 5: Estrutura de Dados
   
